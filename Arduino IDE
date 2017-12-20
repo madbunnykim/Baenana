@@ -42,7 +42,7 @@ void loop() {
 
   if (digitalRead(PEEL1) == LOW && played1 == false) {
     //      Serial.println("I am on");
-    myDFPlayer.volume(20);
+    myDFPlayer.volume(30);
     myDFPlayer.play(counter);
     delay(1000);
     counter = counter + 1;
@@ -60,7 +60,7 @@ void loop() {
 
   if (digitalRead(PEEL2) == LOW && played2 == false) {
     //      Serial.println("I am on");
-    myDFPlayer.volume(20);
+    myDFPlayer.volume(30);
     myDFPlayer.play(counter);
     delay(1000);
     counter = counter + 1;
@@ -77,7 +77,7 @@ void loop() {
 
   if (digitalRead(PEEL3) == LOW && played3 == false) {
     //      Serial.println("I am on");
-    myDFPlayer.volume(20);
+    myDFPlayer.volume(30);
     myDFPlayer.play(counter);
     delay(1000);
     counter = counter + 1;
@@ -94,7 +94,7 @@ void loop() {
 
   if (digitalRead(PEEL4) == LOW && played4 == false) {
 //    Serial.println("I am on");
-    myDFPlayer.volume(20);
+    myDFPlayer.volume(30);
     myDFPlayer.play(counter);
     delay(1000);
     counter = counter + 1;
